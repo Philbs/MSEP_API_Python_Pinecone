@@ -1,0 +1,15 @@
+{
+  "appServicePlan": {
+    "name": "ASP-JarvisGPT-b0e2",
+    "resourceGroup": "JarvisGPT"
+  },
+  "webApp": {
+    "name": "meumsepapi",
+    "deploymentSlot": "Production",
+    "siteConfig": {
+      "appSettings": {
+        "FLASK_APP": "main.py"
+      }
+    }
+  }
+}
